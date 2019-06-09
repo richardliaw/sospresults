@@ -1,0 +1,22 @@
+{
+  "dataset": "CIFAR",
+  "devices_per_worker": 1,
+  "gpu": false,
+  "lr_config": {
+    "mode": "log",
+    "steps": 5
+  },
+  "min_batch_size": 128,
+  "model_creator": null,
+  "model_string": "resnet50",
+  "momentum": 0.9,
+  "pin": false,
+  "placement": null,
+  "primary_resource": "extra_gpu",
+  "starting_lr": 0.5,
+  "steps_per_iteration": null,
+  "target_batch_size": 128,
+  "use_nccl": true,
+  "verbose": false,
+  "weight_decay": 0.0001
+}
